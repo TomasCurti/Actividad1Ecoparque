@@ -1,14 +1,14 @@
 header {
     height: 80px;
     background-color: #386e18;
-    font-family: Arial, sans-serif;
-    color: white;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: flex;
     align-items: center;
         
     a {
-        color: white;
+        color: rgb(247, 222, 1);
         text-decoration: none;
     } 
 
@@ -27,42 +27,57 @@ header {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e0fdc4
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #e0fdc4;
+    text-align: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 
 footer {
     height: 40px;
     background-color: #386e18;
-    font-family: Arial, sans-serif;
-    color: white;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(247, 222, 1);
     text-decoration: none;
-    font-size: 12px;
-    margin-bottom: 0px;
+    font-size: 18px;
+    
     text-align: center;
-    padding: 5px;   
+    padding: 15px;   
 }
 
 
 
 .AnimalCard {
+            width: 900px;
             background-color: white;
             font-family: Arial, sans-serif;
             color: black;
             text-decoration: none;
-            margin: 10px;
-            
+            margin: 10px auto;
+            padding: 10px;
             border-radius: 10px;
-            align-items: center;
-            text-align: center;
             border-color: #386e18;
             border-width: 2px;
             border-style: solid;
+            text-decoration: none;
+            list-style-type: none;
+            
+            /*align-items: center;*/
+            /*text-align: center;*/
+            
 
             img {
-                width: 300px;
-                height: 200px;
+                width: 600px;
+                height: 400px;
+                border-color: #386e18;
+                border-width: 2px;
+                border-style: solid;
+                border-radius: 10px;
             }
         }
 
@@ -83,7 +98,7 @@ footer {
 .botonmenu {
 
     background-color: #386e18;
-    color: white;
+    color: rgb(247, 222, 1);
     text-decoration: none;
     margin: 5px;
     margin-right: 100px;
